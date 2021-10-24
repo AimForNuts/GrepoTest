@@ -1,2 +1,3 @@
-# dummy-xadam1
-dummy-xadam1
+# GrepoTest
+v0.0
+ . Initial setup
