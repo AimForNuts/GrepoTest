@@ -8,7 +8,7 @@
 // @include			http://*.grepolis.*/*
 // @include			https://*.grepolis.*/*
 
-// @version			1.1
+// @version			1.2
 // @grant        none
 // @updateURL       https://github.com/AimForNuts/GrepoTest/blob/main/TamperMonkey.js
 
