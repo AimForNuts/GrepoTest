@@ -1,12 +1,17 @@
 // ==UserScript==
+
 // @name			GrepoTest
 // @namespace		GrepoTest
 // @description		Functionality settings for GrepoTest
+
 // @autor			AimForNuts
-// @version			1.1
 // @include			http://*.grepolis.*/*
 // @include			https://*.grepolis.*/*
+
+// @version			1.1
+// @grant        none
 // @updateURL       https://github.com/AimForNuts/GrepoTest/blob/main/TamperMonkey.js
+
 // ==/UserScript==
 (function () {
     var script = document.createElement('script'),
@@ -15,8 +20,8 @@
     script.type = 'text/javascript';
     link.type = 'text/css';
     link.rel = 'stylesheet';
-    script.src = 'https://cdn.jsdelivr.net/gh/AimForNuts/GrepoTest@main/automation.js';
-    link.href = 'https://cdn.jsdelivr.net/gh/Autarch-s/GrepoBot@master/Autobot.css';
+    script.src = 'https://raw.githubusercontent.com/xadam1/GrepoBotExtension/master/GrepobotMinified.js';
+    link.href = 'https://raw.githubusercontent.com/xadam1/GrepoBotExtension/master/Autobot.js';
     head.appendChild(script);
     head.appendChild(link);
     head.setAttribute('xhttps', 1);
