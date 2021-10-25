@@ -9,7 +9,7 @@
 // @exclude      view-source://*
 // @exclude      https://classic.grepolis.com/game/*
 
-// @version      v5.1
+// @version      v0.1
 // @grant        none
 
 // ==/UserScript==
