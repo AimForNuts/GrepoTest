@@ -3,7 +3,7 @@
 // @namespace		GrepoTest
 // @description		Functionality settings for GrepoTest
 // @autor			AimForNuts
-// @verison			1.1
+// @version			1.1
 // @include			http://*.grepolis.*/*
 // @include			https://*.grepolis.*/*
 // @updateURL       https://github.com/AimForNuts/GrepoTest/blob/main/TamperMonkey.js
