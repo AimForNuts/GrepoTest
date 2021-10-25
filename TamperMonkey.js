@@ -1,16 +1,16 @@
 // ==UserScript==
 
-// @name			GrepoTest
-// @namespace		GrepoTest
-// @description		Functionality settings for GrepoTest
+// @name         GrepoBot
+// @author       xadam1, rubensei, kevenvz & grepobot
+// @description  Grepolis automated bot, which helps you with some stuff!
 
-// @autor			AimForNuts
-// @include			http://*.grepolis.*/*
-// @include			https://*.grepolis.*/*
+// @include      http://*.grepolis.com/game/*
+// @include      https://*.grepolis.com/game/*
+// @exclude      view-source://*
+// @exclude      https://classic.grepolis.com/game/*
 
-// @version			1.2
+// @version      v5.1
 // @grant        none
-// @updateURL       https://github.com/AimForNuts/GrepoTest/blob/main/TamperMonkey.js
 
 // ==/UserScript==
 (function () {
