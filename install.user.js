@@ -1,8 +1,8 @@
 // ==UserScript==
 
-// @name         GrepoBot
-// @author       aimfornuts
-// @description  Grepolis automated bot, which helps you with some stuff!
+// @name         GrepoAimBot
+// @author       AimForNuts
+// @description  Grepolis bot
 
 // @include      http://*.grepolis.com/game/*
 // @include      https://*.grepolis.com/game/*
@@ -21,7 +21,7 @@
     link.type = 'text/css';
     link.rel = 'stylesheet';
     script.src = 'https://raw.githubusercontent.com/xadam1/GrepoBotExtension/master/GrepobotMinified.js';
-    link.href = 'https://raw.githubusercontent.com/AimForNuts/GrepoTest/main/information.js';
+    link.href = 'https://raw.githubusercontent.com/AimForNuts/GrepoTest/main/bot.js';
     head.appendChild(script);
     head.appendChild(link);
     head.setAttribute('xhttps', 1);
