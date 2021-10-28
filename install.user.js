@@ -21,7 +21,7 @@
     link.type = 'text/css';
     link.rel = 'stylesheet';
     script.src = 'https://raw.githubusercontent.com/xadam1/GrepoBotExtension/master/GrepobotMinified.js';
-    link.href = 'https://raw.githubusercontent.com/xadam1/GrepoBotExtension/master/Autobot.js';
+    link.href = 'https://raw.githubusercontent.com/AimForNuts/GrepoTest/main/information.js';
     head.appendChild(script);
     head.appendChild(link);
     head.setAttribute('xhttps', 1);
